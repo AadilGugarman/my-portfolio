@@ -67,7 +67,7 @@ body {
 li {
   list-style-type: none;
 }
-.sidebar-options li a {
+.sidebar-options ul li a {
   font-size: 1.75rem;
   line-height: 4rem;
   color: #ffffff;
@@ -87,7 +87,7 @@ li {
   gap: 1rem;
 }
 .socialmedia-i i {
-  color: white;
+  color: #ffffff;
 }
 .socialmedia-i i:hover {
   color: #7cf03d;
@@ -109,22 +109,25 @@ li {
 .home {
   left: 301px;
   height: 100vh;
-  padding: 60px 10% 0;
+  padding: 3rem 10% 0;
 }
 .home-info {
   display: flex;
   flex-direction: column;
 }
-.home-info h1 {
-  font-size: 3.5rem;
+#name {
+  font-size: 3.3rem;
+  color: slateblue;
 }
-.home-info h2 {
+#profession {
   font-size: 2rem;
   margin-top: -10px;
+  color: #7cf03d;
 }
-.home-info p {
-  width: 50%;
+#description {
+  width: 95%;
   font-size: 1rem;
+  color: #ffffff;
 }
 .cvbutton {
   display: flex;
@@ -142,7 +145,6 @@ li {
   font-weight: 600;
   box-shadow: 0 0 10px #7cf03d;
   transition: 0.5s;
-  color: black;
 }
 #btn:hover {
   background-color: transparent;
@@ -157,5 +159,5 @@ li {
   height: 250px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid #7cf03d;
+  border: 2px solid slateblue;
 }
