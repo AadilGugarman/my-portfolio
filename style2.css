@@ -50,8 +50,9 @@ a:hover {
 .project-section {
   margin: 4rem 0 0 0.5rem;
   display: grid;
+
   grid-gap: 1rem;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3s, 2fr);
   /* grid-template-rows: repeat(2, 1fr); */
 }
 .projectbox {
