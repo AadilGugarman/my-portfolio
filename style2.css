@@ -9,11 +9,12 @@ body {
   color: #ffffff;
 }
 .header {
-  height: 60px;
+  height: 50px;
   width: 100%;
   background-color: slateblue;
   display: flex;
   flex-wrap: wrap;
+  white-space: nowrap;
   overflow: hidden;
   justify-content: space-between;
   align-items: center;
@@ -48,12 +49,10 @@ a:hover {
   margin-right: 1rem;
 }
 .project-section {
-  margin: 4rem 0 0 0.5rem;
+  margin: 5rem 0 0 0.5rem;
   display: grid;
-
-  grid-gap: 1rem;
-  grid-template-columns: repeat(3s, 2fr);
-  /* grid-template-rows: repeat(2, 1fr); */
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px));
 }
 .projectbox {
   display: flex;
