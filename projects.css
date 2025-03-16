@@ -14,7 +14,6 @@ body {
   background-color: slateblue;
   display: flex;
   flex-wrap: wrap;
-  white-space: nowrap;
   overflow: hidden;
   justify-content: space-between;
   align-items: center;
@@ -32,7 +31,7 @@ li {
   font-size: 1.75rem;
 }
 a:hover {
-  color: #7cf03d;
+  color: #00abf0;
 }
 .sci-icon {
   display: flex;
@@ -52,15 +51,15 @@ a:hover {
   margin: 5rem 0 0 0.5rem;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(350px));
+  grid-template-columns: repeat(4, 1fr);
 }
 .projectbox {
   display: flex;
   flex-direction: column;
   background-color: transparent;
   padding: 0.5rem;
-  box-shadow: 0 0 10px #7cf03d;
-  color: #7cf03d;
+  box-shadow: 0 0 10px #00abf0;
+  color: #00abf0;
   border-radius: 0.75rem;
   /* height: 200px;
   width: 350px; */
@@ -68,20 +67,20 @@ a:hover {
 .projectbox a h2 {
   text-align: center;
   padding: 10px 20px;
-  background-color: #7cf03d;
+  background-color: #00abf0;
   color: #1f242d;
-  border: 2px solid #7cf03d;
+  border: 2px solid #00abf0;
   text-decoration: none;
   border-radius: 2.5rem;
   font-size: 2rem;
   font-weight: 600;
-  box-shadow: 0 0 8px #7cf03d;
+  box-shadow: 0 0 8px #00abf0;
   transition: 0.5s;
   margin: 1rem 0;
 }
 .projectbox a h2:hover {
   box-shadow: none;
-  color: #7cf03d;
+  color: #00abf0;
   background-color: transparent;
 }
 .projectimg img {
