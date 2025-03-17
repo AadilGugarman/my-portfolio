@@ -41,6 +41,9 @@ body {
   text-decoration: none;
   line-height: 60px;
 }
+.name:hover {
+  color: #00abf0;
+}
 .x-icon {
   margin-top: 0.9rem;
   font-size: 2rem;
@@ -69,6 +72,18 @@ body {
 li {
   list-style-type: none;
 }
+.sidebar-options li i {
+  font-size: 2rem;
+  color: #ffffff;
+  display: inline-flex;
+  align-self: center;
+  padding: 0 0.75rem;
+}
+.sidebar-options i:hover {
+  color: #00abf0;
+  font-size: 2.2rem;
+}
+
 .sidebar-options ul li a {
   font-size: 1.75rem;
   line-height: 4rem;
@@ -129,7 +144,8 @@ li {
 #description {
   width: 95%;
   font-size: 1rem;
-  color: #ffffff;
+  color: #b0bec5;
+  padding-right: 12%;
 }
 .cvbutton {
   display: flex;
@@ -145,6 +161,7 @@ li {
   border-radius: 2.5rem;
   font-size: 1rem;
   font-weight: 600;
+  color: #1f242d;
   box-shadow: 0 0 10px #00abf0;
   transition: 0.5s;
 }
