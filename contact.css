@@ -55,6 +55,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 }
 .contact-info {
   font-size: 2rem;
@@ -77,11 +78,35 @@ a:hover {
   border-radius: 1rem;
   box-shadow: 0 0 4px #00abf0;
 }
-.info:hover {
+.info:hover,
+.address:hover {
   box-shadow: none;
   color: #00abf0;
   background-color: transparent;
 }
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #1f242d;
+  background-color: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 1rem;
+  box-shadow: 0 0 4px #00abf0;
+}
+.address i {
+  font-size: 2.4rem;
+  background-color: #00abf0;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 2px solid #00abf0;
+  box-shadow: 0 0 4px #00abf0;
+  border-radius: 50%;
+  color: #1f242d;
+}
+
 .info-content a {
   display: inline-flex;
   font-size: 2.4rem;
@@ -93,7 +118,8 @@ a:hover {
   border-radius: 50%;
   color: #1f242d;
 }
-.info-content a:hover {
+.info-content a:hover,
+.address i:hover {
   box-shadow: none;
   color: #00abf0;
   background-color: transparent;

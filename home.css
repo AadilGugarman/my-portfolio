@@ -45,6 +45,7 @@ body {
   margin-top: 0.9rem;
   font-size: 2rem;
   opacity: 1;
+  color: #ffffff;
   transition: all 0.3s linear;
 }
 .x-icon:hover {
