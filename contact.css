@@ -14,10 +14,11 @@ body {
   background-color: slateblue;
   display: flex;
   flex-wrap: wrap;
+  white-space: nowrap;
   overflow: hidden;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 12px 30px;
   position: fixed;
   top: 0;
   left: 0;
@@ -46,4 +47,66 @@ a:hover {
 }
 .header-options ul li {
   margin-right: 1rem;
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-info {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #00abf0;
+}
+
+.info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #1f242d;
+  background-color: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 1rem;
+  box-shadow: 0 0 4px #00abf0;
+}
+.info:hover {
+  box-shadow: none;
+  color: #00abf0;
+  background-color: transparent;
+}
+.info-content a {
+  display: inline-flex;
+  font-size: 2.4rem;
+  background-color: #00abf0;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 2px solid #00abf0;
+  box-shadow: 0 0 4px #00abf0;
+  border-radius: 50%;
+  color: #1f242d;
+}
+.info-content a:hover {
+  box-shadow: none;
+  color: #00abf0;
+  background-color: transparent;
+}
+.sm-icons {
+  gap: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .info {
+    display: flex;
+  }
 }

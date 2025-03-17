@@ -17,7 +17,7 @@ body {
   overflow: hidden;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 12px 30px;
   position: fixed;
   top: 0;
   left: 0;
@@ -64,15 +64,21 @@ a:hover {
   /* height: 200px;
   width: 350px; */
 }
+.projectbox h3 {
+  color: #e6a867;
+  border-bottom: 1px solid #00abf0;
+  line-height: 2rem;
+  margin-bottom: 0.5rem;
+}
 .projectbox a h2 {
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: #00abf0;
   color: #1f242d;
   border: 2px solid #00abf0;
   text-decoration: none;
   border-radius: 2.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   box-shadow: 0 0 8px #00abf0;
   transition: 0.5s;
@@ -86,6 +92,16 @@ a:hover {
 .projectimg img {
   width: 100%;
   height: 250px;
-  box-shadow: 0 0 4px #7cf03d;
-  border: 1px solid #7cf03d;
+  border-radius: 1rem;
+  box-shadow: 0 0 4px #00abf0;
+  border: 2px solid #00abf0;
+}
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+  .project-section {
+    grid-template-columns: repeat(1, 50%);
+  }
 }

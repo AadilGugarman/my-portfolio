@@ -79,20 +79,30 @@ h3 {
 .skills-content,
 .certi-content,
 .profile-content {
-  padding: 1rem 0;
+  padding: 0.75rem 0;
+}
+.timeline-box {
+  border: 1px solid #00abf0;
+  border-radius: 0.75rem;
 }
 .year {
   padding: 0.5rem 0;
 }
+.border {
+  border-bottom: 1px solid #00abf0;
+}
 .content {
   padding: 0.75rem;
-  border: 1px solid #00abf0;
+  /* border: 1px solid #00abf0; */
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .skills-box {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   border: 1px solid #00abf0;
   border-radius: 0.75rem;
 }
@@ -119,7 +129,7 @@ h3 {
 
 .certi-content,
 .profile {
-  padding: 0.75rem;
+  padding: 1.4rem;
   border: 1px solid #00abf0;
   border-radius: 0.75rem;
 }
@@ -142,7 +152,7 @@ h3 {
   padding: 1rem;
   margin-left: 1rem;
   width: 100%;
-  justify-content: space-around;
+  gap: 1.75rem;
   border: 1px solid #00abf0;
   border-radius: 0.75rem;
 }
