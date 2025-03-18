@@ -6,6 +6,7 @@
 }
 body {
   background-color: #1f242d;
+  color: #d1d1d1;
 }
 
 /* HOME SECTION */
@@ -118,6 +119,9 @@ li {
 #check:checked ~ .home {
   position: fixed;
   display: none;
+}
+#check:checked ~ .x-icon {
+  opacity: 0;
 }
 #check:checked ~ .menu-icon {
   opacity: 0;
@@ -337,7 +341,7 @@ a:hover {
 }
 .certi-content ul li {
   list-style-type: square;
-  margin-left: 1.3rem;
+  margin-left: 1.5rem;
 }
 
 .line {
