@@ -21,7 +21,6 @@ body {
   display: none;
 }
 .menu-icon {
-  display: none;
   position: absolute;
   top: 4rem;
   left: 0.5rem;
@@ -64,7 +63,6 @@ body {
 }
 .sidebar {
   height: 100vh;
-  display: none;
   width: 300px;
   background-color: #2c313c;
   position: fixed;
