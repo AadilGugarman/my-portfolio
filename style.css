@@ -199,6 +199,7 @@ li {
   width: 100%;
   background-color: slateblue;
   display: flex;
+  flex-wrap: wrap;
   overflow: hidden;
   justify-content: space-between;
   align-items: center;
