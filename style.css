@@ -227,7 +227,7 @@ a:hover {
 }
 .header-options ul {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 .header-options ul li {
   margin-right: 1rem;
