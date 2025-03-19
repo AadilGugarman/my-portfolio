@@ -21,7 +21,6 @@ body {
   display: none;
 }
 .menu-icon {
-  position: absolute;
   top: 0rem;
   left: -2rem;
   opacity: 1;
