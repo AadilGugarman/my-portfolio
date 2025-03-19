@@ -198,7 +198,6 @@ li {
   width: 100%;
   background-color: slateblue;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
@@ -219,6 +218,7 @@ a:hover {
 }
 .sci-icon {
   display: flex;
+  white-space: nowrap;
   align-items: center;
   gap: 1rem;
 }
