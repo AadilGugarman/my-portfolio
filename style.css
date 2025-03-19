@@ -199,6 +199,7 @@ li {
   width: 100%;
   background-color: slateblue;
   display: flex;
+  overflow: hidden;
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
@@ -229,7 +230,6 @@ a:hover {
 }
 .header-options ul {
   display: flex;
-  justify-content: space-between;
   gap: 1rem;
   align-items: center;
 }
