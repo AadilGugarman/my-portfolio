@@ -21,7 +21,7 @@ body {
   display: none;
 }
 .menu-icon {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0.5rem;
   opacity: 1;
@@ -30,6 +30,7 @@ body {
   transition: 0.3s;
 }
 .menu-icon:hover {
+  font-size: 3rem;
   color: #00abf0;
 }
 .name-xlogo {
@@ -64,7 +65,7 @@ body {
   height: 100vh;
   width: 300px;
   background-color: #2c313c;
-  position: absolute;
+  position: relative;
   left: -300px;
   box-shadow: 0 2px 6px #1f242d;
   transition: all 0.3s linear;
