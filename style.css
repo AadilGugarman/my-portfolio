@@ -229,7 +229,9 @@ a:hover {
   margin-right: 1rem;
   white-space: nowrap;
 }
-
+.header-options ul li {
+  display: inline-block;
+}
 .header-options ul {
   list-style-type: none;
   display: flex;
@@ -266,6 +268,9 @@ a:hover {
   padding: 0 9%;
   column-gap: 1.75rem;
   margin-top: 1rem;
+}
+.skills-row {
+  flex-wrap: wrap;
 }
 .timeline-content,
 .skills-content,
@@ -320,12 +325,11 @@ a:hover {
 .skills-info span {
   display: inline-flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  white-space: normal;
   align-items: center;
   justify-content: center;
-  width: 7rem;
-  height: 5.5rem;
+  align-content: center;
+  min-width: 7rem;
+  min-height: 5rem;
   font-size: 1rem;
   font-weight: 600;
   border: 2px solid #00abf0;
