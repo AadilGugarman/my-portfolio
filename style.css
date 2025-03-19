@@ -199,7 +199,6 @@ li {
   width: 100%;
   background-color: slateblue;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
@@ -227,10 +226,14 @@ a:hover {
   font-weight: 600;
 }
 .header-options ul {
-  list-style: none;
+  list-style-type: none;
   display: flex;
   gap: 1rem;
   align-items: center;
+}
+.header-options a,
+.name {
+  line-height: 50px;
 }
 
 /* ABOUT SECTION */
