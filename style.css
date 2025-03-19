@@ -7,6 +7,7 @@
 body {
   background-color: #1f242d;
   color: #d1d1d1;
+  overflow: auto;
 }
 
 /* HOME SECTION */
@@ -198,8 +199,7 @@ li {
   width: 100%;
   background-color: slateblue;
   display: flex;
-  align-content: center
-  ;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
@@ -229,6 +229,7 @@ a:hover {
 }
 .header-options ul {
   display: flex;
+  align-items: center;
 }
 .header-options ul li {
   margin-right: 1rem;
