@@ -225,6 +225,10 @@ a:hover {
 .name {
   font-weight: 600;
 }
+.header-options ul li {
+  display: flex;
+  align-items: center;
+}
 .header-options ul {
   list-style-type: none;
   display: flex;
