@@ -20,15 +20,14 @@ body {
   display: none;
 }
 .menu-icon {
-  position: absolute;
+  position: fixed;
+  top: 0;
   opacity: 1;
   color: #ffffff;
   font-size: 2.5rem;
   transition: 0.3s;
 }
 .menu-icon:hover {
-  opacity: 1;
-  font-size: 3rem;
   color: #00abf0;
 }
 .name-xlogo {
@@ -56,7 +55,6 @@ body {
 }
 .x-icon:hover {
   font-size: 2.4rem;
-  opacity: 0;
   color: #00abf0;
 }
 .sidebar {
@@ -116,19 +114,23 @@ li {
 #check:checked ~ .sidebar {
   left: 0;
 }
-#check:checked ~ .home {
-  position: fixed;
-  display: none;
-}
-#check:checked ~ .x-icon {
-  opacity: 0;
-}
 #check:checked ~ .menu-icon {
   opacity: 0;
 }
+#check:checked ~ .home {
+  display: none;
+}
+#check:checked ~ .timeline {
+  display: none;
+}
+#check:checked ~ .project-section {
+  display: none;
+}
+#check:checked ~ .contact-section {
+  display: none;
+}
 
 .home {
-  left: 301px;
   height: 100vh;
   padding: 3rem 10% 0;
 }
@@ -209,10 +211,11 @@ li {
   font-size: 1.75rem;
 }
 a:hover {
-  color: #00abf0;
+  color: #66d86a;
 }
 .sci-icon {
   display: flex;
+  white-space: nowrap;
   align-items: center;
   gap: 1rem;
 }
@@ -483,14 +486,19 @@ a:hover {
     justify-content: center;
     flex-direction: column;
   }
-  .sci-icon {
-    flex-wrap: wrap;
-    overflow: hidden;
-  }
+
   .header-options {
     display: none;
   }
-
+  .menu-icon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+  .sidebar {
+    top: 0;
+  }
   .timeline-row,
   .certi-row,
   .profile-row,
@@ -515,5 +523,27 @@ a:hover {
   .contact-section a {
     font-size: 1.5rem;
     border: 2px solid #1f242d;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    display: none;
+  }
+  .sci-icon i {
+    display: none;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  #name {
+    font-size: 2rem;
+  }
+  #profession {
+    font-size: 1.5rem;
+  }
+  #description {
+    font-size: 0.85rem;
   }
 }
