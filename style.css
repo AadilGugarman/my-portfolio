@@ -23,6 +23,7 @@ body {
 .menu-icon {
   position: fixed;
   top: 0;
+  left: 0.5rem;
   opacity: 1;
   color: #ffffff;
   font-size: 2.5rem;
@@ -199,8 +200,7 @@ li {
   width: 100%;
   background-color: slateblue;
   display: flex;
-  justify-content: flex-start;
-  gap: 1rem;
+  justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
   position: fixed;
@@ -219,11 +219,14 @@ a:hover {
 .sci-icon {
   display: flex;
   align-items: center;
-  margin-right: 0.5rem;
+  justify-content: center;
+  align-content: center;
+  line-height: 50px;
   gap: 1rem;
 }
 .name {
   font-weight: 600;
+  margin-right: 1rem;
   white-space: nowrap;
 }
 
@@ -231,6 +234,7 @@ a:hover {
   list-style-type: none;
   display: flex;
   gap: 1rem;
+  margin-left: 1rem;
   align-items: center;
 }
 
@@ -512,7 +516,7 @@ a:hover {
     flex-direction: column;
   }
   .project-section {
-    grid-template-columns: repeat(1, 100%);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
   .info,
   .address {
