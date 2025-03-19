@@ -208,9 +208,7 @@ li {
   left: 0;
   z-index: 10;
 }
-a,
-li {
-  list-style-type: none;
+a {
   text-decoration: none;
   color: #ffffff;
   font-size: 1.75rem;
@@ -229,6 +227,7 @@ a:hover {
   font-weight: 600;
 }
 .header-options ul {
+  list-style: none;
   display: flex;
   gap: 1rem;
   align-items: center;
