@@ -492,9 +492,9 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  /* .header {
+  .header {
     justify-content: center;
-  } */
+  }
 
   .header-options {
     display: none;
