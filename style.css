@@ -198,6 +198,7 @@ li {
   width: 100%;
   background-color: slateblue;
   display: flex;
+  white-space: nowrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
