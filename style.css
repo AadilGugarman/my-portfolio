@@ -229,6 +229,7 @@ a:hover {
 }
 .header-options ul {
   display: flex;
+  flex-shrink: 1;
   align-items: center;
 }
 .header-options ul li {
@@ -492,7 +493,6 @@ a:hover {
   .header {
     justify-content: center;
     flex-direction: column;
-    overflow: hidden;
   }
 
   .header-options {
