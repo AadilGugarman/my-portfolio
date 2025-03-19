@@ -211,7 +211,7 @@ li {
 a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 a:hover {
   color: #66d86a;
@@ -230,7 +230,8 @@ a:hover {
   white-space: nowrap;
 }
 .header-options ul li {
-  display: inline-block;
+  display: inline-flex;
+  flex: 1 1 auto;
 }
 .header-options ul {
   list-style-type: none;
