@@ -21,8 +21,9 @@ body {
   display: none;
 }
 .menu-icon {
+  position: absolute;
   top: 0rem;
-  left: -2rem;
+  left: 0rem;
   display: none;
   opacity: 1;
   color: #ffffff;
