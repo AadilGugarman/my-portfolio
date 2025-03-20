@@ -120,7 +120,7 @@ li {
   color: #00abf0;
   transform: scale(2, 2);
 }
-/* #check:checked ~ .sidebar {
+#check:checked ~ .sidebar {
   left: 0;
 }
 #check:checked ~ .sidebar .name-xlogo .x-icon {
@@ -140,7 +140,7 @@ li {
 }
 #check:checked ~ .contact-section {
   display: none;
-} */
+}
 
 .home {
   height: 100vh;
