@@ -18,9 +18,7 @@ body {
 }
 
 #check {
-  position: absolute;
-  left: 10px;
-  top: 70px;
+  display: none;
 }
 
 .name-xlogo {
@@ -52,8 +50,8 @@ body {
   color: #00abf0;
 }
 .menu-icon {
-  position: absolute;
-  top: 60px;
+  position: fixed;
+  top: 0;
   left: 0;
   opacity: 1;
   color: #ffffff;
