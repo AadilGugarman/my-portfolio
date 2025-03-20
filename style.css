@@ -15,6 +15,7 @@ body {
 .main-container {
   display: flex;
   height: 100vh;
+  position: relative;
 }
 
 #check {
