@@ -19,7 +19,8 @@ body {
 
 #check {
   position: absolute;
-  left: -50px;
+  left: 10px;
+  top: 70px;
 }
 
 .name-xlogo {
