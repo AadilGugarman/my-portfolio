@@ -20,7 +20,7 @@ body {
 #check {
   position: absolute;
   top: 100%;
-  visibility: none;
+  display: none;
 }
 
 .name-xlogo {
