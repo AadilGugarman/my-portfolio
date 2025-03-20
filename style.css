@@ -22,9 +22,9 @@ body {
 }
 
 .name-xlogo {
-  line-height: 60px;
   padding: 0 1rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   box-shadow: 0 2px 4px #1f242d;
 }
