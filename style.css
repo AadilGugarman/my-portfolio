@@ -208,7 +208,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 2rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -238,7 +238,6 @@ a:hover {
   line-height: 60px;
   display: flex;
   gap: 1rem;
-  margin-left: 1rem;
   align-items: center;
   flex-wrap: nowrap;
 }
