@@ -18,6 +18,8 @@ body {
 }
 
 #check {
+  position: absolute;
+  top: -6rem;
   display: none;
 }
 
@@ -50,13 +52,13 @@ body {
   color: #00abf0;
 }
 .menu-icon {
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 1rem;
   left: 0.5rem;
   opacity: 1;
   color: #ffffff;
   font-size: 2.5rem;
-  transition: 0.3s;
+  transition: opacity 0.3s ease;
 }
 .menu-icon:hover {
   font-size: 3rem;
@@ -119,6 +121,9 @@ li {
 }
 #check:checked ~ .sidebar {
   left: 0;
+}
+#check:not(:checked) ~ .sidebar {
+  left: -300px;
 }
 #check:checked ~ .sidebar .name-xlogo .x-icon {
   opacity: 1;
