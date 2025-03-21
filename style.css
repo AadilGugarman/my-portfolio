@@ -500,7 +500,7 @@ a:hover {
   justify-content: center;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .header {
     justify-content: center;
   }
@@ -564,4 +564,4 @@ a:hover {
   #description {
     font-size: 0.85rem;
   }
-}
+} */
