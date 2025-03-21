@@ -236,7 +236,7 @@ a:hover {
   white-space: nowrap;
 }
 
-.header-options ul {
+.header-options {
   line-height: 60px;
   list-style-type: none;
   display: flex;
@@ -244,6 +244,7 @@ a:hover {
   margin-left: 1rem;
   margin-right: 3rem;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 /* ABOUT SECTION */
