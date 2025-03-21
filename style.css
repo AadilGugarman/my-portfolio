@@ -237,6 +237,7 @@ a:hover {
 }
 
 .header-options ul {
+  line-height: 60px;
   list-style-type: none;
   display: flex;
   gap: 1rem;
