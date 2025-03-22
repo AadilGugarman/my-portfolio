@@ -40,7 +40,8 @@ body {
 }
 .x-icon {
   margin-top: 0.9rem;
-  align-self: flex-end;
+  position: absolute;
+  right: 10px;
   font-size: 2rem;
   opacity: 0;
   color: #ffffff;
