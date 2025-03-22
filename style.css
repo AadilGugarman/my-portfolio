@@ -24,10 +24,9 @@ body {
 }
 
 .name-xlogo {
-  line-height: 60px;
   padding: 0 1rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   box-shadow: 0 2px 4px #1f242d;
 }
@@ -45,12 +44,9 @@ body {
   font-size: 2rem;
   opacity: 0;
   color: #ffffff;
-  transition: all 0.3s linear;
+  transition: 0.3s linear;
 }
-.x-icon:hover {
-  font-size: 2.4rem;
-  color: #00abf0;
-}
+
 .menu-icon {
   position: fixed;
   top: 1rem;
@@ -58,10 +54,10 @@ body {
   opacity: 1;
   color: #ffffff;
   font-size: 2.5rem;
-  transition: opacity 0.3s ease;
+  transition: 0.3s linear;
 }
-.menu-icon:hover {
-  font-size: 3rem;
+.menu-icon:hover,
+.x-icon:hover {
   color: #00abf0;
 }
 
@@ -134,12 +130,16 @@ li {
 #check:checked ~ .header {
   display: none;
 }
-#check:checked ~ .timeline,
-.project-section,
-.contact-section {
+#check:checked ~ .timeline {
   display: none;
 }
 #check:checked ~ .home {
+  display: none;
+}
+#check:checked ~ .project-section {
+  display: none;
+}
+#check:checked ~ .contact-section {
   display: none;
 }
 
