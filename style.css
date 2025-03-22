@@ -136,9 +136,10 @@ li {
 }
 #check:checked ~ .timeline,
 .project-section,
-.contact-section,
-.home,
-.header {
+.contact-section {
+  display: none;
+}
+#check:checked ~ .home {
   display: none;
 }
 
@@ -166,7 +167,7 @@ li {
   padding-right: 12%;
 }
 .cvbutton {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   margin-top: 0.5rem;
 }
