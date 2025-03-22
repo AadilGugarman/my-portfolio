@@ -208,7 +208,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2.2rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -223,12 +223,12 @@ a {
 a:hover {
   color: #66d86a;
 }
-.sci-icon,
+.name,
 .header-options {
   display: flex;
   align-items: center;
   line-height: 60px;
-  gap: 0.85rem;
+  gap: 1rem;
   flex-wrap: nowrap;
 }
 .name {
