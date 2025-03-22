@@ -250,7 +250,8 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 4.5rem;
+  position: absolute;
+  top: 5rem;
 }
 .title {
   color: #66d86a;
