@@ -324,8 +324,8 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 7rem;
-  min-height: 5rem;
+  width: 7rem;
+  height: 5rem;
   font-size: 1rem;
   font-weight: 600;
   border: 2px solid #00abf0;
